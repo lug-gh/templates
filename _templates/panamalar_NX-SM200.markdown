@@ -8,6 +8,6 @@ image: https://camo.githubusercontent.com/a762f613da7dae5360c72e45de6f48616fbe1f
 link: https://www.amazon.de/gp/product/B07JBRRW1M/
 template: '{"NAME":"NX-SM200","GPIO":[0,0,0,0,56,134,0,0,131,17,132,21,0],"FLAG":1,"BASE":18}' 
 ---
-Works out of the box
+For correct power monitoring make sure to set Powerdelta to 0 (https://github.com/arendst/Sonoff-Tasmota/issues/3835)
 
 Modified gpio assignment, as there we more used than needed (or even supported)
